@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+        coche a= new coche();
+        a.addd();
+        System.out.println(a.puertas);
+    }
+
+}
+class coche{
+    public int puertas =4;
+
+    public void addd(){
+        this.puertas++;
+    }
+}
+
